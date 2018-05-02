@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200 rpx 0;
+  padding: 200rpx 0;
   box-sizing: border-box;
 }
 
@@ -43,5 +43,24 @@
 .error-txt {
   color: red;
   text-align: center;
-  font-size: 24 rpx;
+  font-size: 24rpx;
+}
+
+.hide {
+  display: none;
+}
+
+.form-control {
+  background-color: #fff;
+  border-bottom: 2rpx #09bb07 solid;
+  margin-top: 10rpx;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
 }
